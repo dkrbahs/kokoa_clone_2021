@@ -1,3 +1,3 @@
 # kokoa clone 2021 update
 
-css got so much better!
+이야 짱 재밌다~!!
