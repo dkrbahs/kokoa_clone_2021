@@ -2,6 +2,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import "reset.css";
 
 .status-bar{
 display: flex;
@@ -25,3 +26,5 @@ justify-content:center;
 .status-bar__column .fa-battery-full{
  margin: 0px 5px;   
 }
+
+
