@@ -1,0 +1,44 @@
+git은 파일을 계속 추적하는 것
+변경사항을 쉽게 확인할 수 있음
+git은 파일들을 주시하면서 관리해주는 도구이고
+github는 git의 변경내역을 볼 수 있는 사이트
+반드시 github 데스크탑 repositary폴더와 비주얼 코드 스튜디오 폴더가 동일해야 함
+그래야 연동이 돔
+commit=새로운 버전(수정) 기록 남기는 것, 타이틀명이 꼭 필요(타이틀에는 뭘 수정했는지 적어줘야)
+
+1. 내용변경
+2. github desktop 'commit change(must need title)'
+3. commit push!
+4. github(website)check
+5. done
+
+VCS → .gitignore → .무시하고 싶은 파일, 저장 → github 데스크탑에서 자동으로 제외됨
+
+깃허브가 있으면 장소에 구애받지않고 기기만 있으면 프로그래밍이 가능하구나!
+
+지금 수강하시는 분들에게 단축키 팁 드리자면
+해당줄을 복붙할때는 shift + alt + 아래(or 위)방향키 누르시면 되고
+div class="name"은 div.name으로
+div id="id"는 div#id하시면 자동완성 됩니다 :^)
+
++ comment 처리는 작성후 Ctrl + / 하시면 되고,
+여러개를 동시에 만들고 싶으시면
+ex. div를 10개 -> div*10하시면 됩니다 !
+
+BEM (Block_Element--Modifier)
+클래스 셀렉터 중 하나
+나중에 코드를 알아보기 쉽게 만들기 위해서 고안해낸 방식인 듯
+
+아이콘 사이트
+heroicons
+fontawsome 
+아이콘 넣는 법
+1. 이미지파일
+2. html값으로 복붙 가능!!
+
+/*.status-bar__column .fa-battery-full는 .fa-battery-full만으로도
+구현이 되지만 스테이터스 바 클래스 자식 클래스라는 의미를 나타냄으로써 
+알아보기 쉽게하기 위해 BEM과 비슷한 개념
+
+class="fas fa-battery-full fa-lg"안에
+총 3개의 클래스가 있음 fas, fa-battery-full, fa-lg
