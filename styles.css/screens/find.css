@@ -103,3 +103,7 @@ margin:0 5px;
 .open-post__heart-count span{
     margin-left: 3px;
 }
+.open-post__border{
+    border-top:var(--main-border);
+    margin:15px 0;
+}
